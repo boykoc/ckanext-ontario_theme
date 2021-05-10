@@ -547,7 +547,7 @@
       },
       "classes": ["form-group","col-md-12"],
       "preset": "select",
-      "validators": "ignore_missing default(none) scheming_choices",
+      "validators": "ignore_missing ontario_exemption_validator scheming_choices",
       "choices": [
         {
           "value": "commercial_sensitivity",
@@ -571,10 +571,10 @@
           }
         },
         {
-          "value": "none",
+          "value": "other",
           "label": {
-            "en": "None",
-            "fr": "Aucun"
+            "en": "Other",
+            "fr": "Autre"
           }
         },
         {
